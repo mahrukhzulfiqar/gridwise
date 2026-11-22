@@ -21,9 +21,10 @@
 | **My role** | Defined the problem, scope, success metrics and roadmap; made and logged the product decisions; built and shipped it |
 | **Key decision** | The AI explains, tested code calculates: every number is reproducible |
 | **After launch** | Adapted within a day when the data provider introduced rate limits; fixed an answer that was correct but misleading |
-| **Next** | All-in price with grid tariffs, and interviews with 5 EV owners |
+| **Evidence** | [Desk research](product/desk-research.md) weakened two core assumptions: EV owners already charge at night, and charger apps already automate. Refined the target user and made all-in price a must |
+| **Next** | All-in price with grid tariffs, and interviews with the refined segment |
 
-📄 **Product docs:** [One-page brief](product/brief.md) · [Success metrics](product/metrics.md) · [Roadmap](product/roadmap.md) · [Decision log](product/decision-log.md)
+📄 **Product docs:** [One-page brief](product/brief.md) · [Success metrics](product/metrics.md) · [Roadmap](product/roadmap.md) · [Decision log](product/decision-log.md) · [Desk research](product/desk-research.md) · [Discovery plan](product/discovery-plan.md)
 
 The product story comes first below. Architecture, setup and tests are in [For engineers](#for-engineers).
 
