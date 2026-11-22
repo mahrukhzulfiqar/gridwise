@@ -16,8 +16,8 @@
 
 | | |
 |---|---|
-| **Problem** | EV owners charge at the evening peak because price and CO2 data is hard to use |
-| **User** | Danish household with an EV and a home charger |
+| **Problem** | Knowing when to charge an EV cheaply and cleanly in Denmark is hard: prices change every 15 minutes, CO2 varies with the wind, and grid tariffs add a daily peak |
+| **User** | Started broad (any Danish EV owner with a home charger); [refined after research](product/desk-research.md) to owners with a basic charger and no smart app, plus developers building energy agents |
 | **My role** | Defined the problem, scope, success metrics and roadmap; made and logged the product decisions; built and shipped it |
 | **Key decision** | The AI explains, tested code calculates: every number is reproducible |
 | **After launch** | Adapted within a day when the data provider introduced rate limits; fixed an answer that was correct but misleading |
@@ -34,9 +34,11 @@ The product story comes first below. Architecture, setup and tests are in [For e
 
 ## 1. Problem and user
 
-Danish electricity prices now change every 15 minutes, and the CO2 intensity of the grid swings by a factor of three or more within a day as wind and imports change. Most EV owners plug in when they get home, right at the evening peak. The data to do better is public, but it sits in an API that few people will ever query.
+Danish electricity prices now change every 15 minutes, the CO2 intensity of the grid swings through the day with wind and imports, and grid tariffs are highest between 17:00 and 21:00. Getting the timing right means combining all three, and the data sits in an API few people will ever query.
 
-**Target user:** a household in Denmark with an EV and a home charger, who wants to save money and cut emissions without studying the electricity market.
+**What research changed:** I started from the assumption that most EV owners plug in and charge at the evening peak. [Desk research](product/desk-research.md) showed that many have already moved to night charging since the 2023 tariff change, and that charger apps already automate it. So the target user narrowed.
+
+**Target user:** a household in Denmark with an EV and a **basic home charger without a smart charging app**, who wants to save money and cut emissions without studying the electricity market. Second segment: **developers and energy teams** who want price and CO2 planning as tools for their own AI agents (MCP).
 
 **Job to be done:** *"When I plug in my car this evening, tell me when to charge so it is ready in the morning, at the lowest cost and CO2."*
 
