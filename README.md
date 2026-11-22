@@ -2,13 +2,13 @@
 
 **Ask when to charge your EV in Denmark and get the cheapest, greenest time, based on live data from Energinet.**
 
-![GridWise demo](docs/demo.gif)
+<!-- Demo GIF goes here once recorded: ![GridWise demo](docs/demo.gif) -->
 
 > "Cheapest and greenest time to charge 40 kWh tonight in DK2? I leave at 07:30."
 >
 > **Charge 00:30 to 04:15.** Average spot price 0.36 kr/kWh and 66 g CO2/kWh. That is about 31 kr cheaper and 3.5 kg less CO2 than plugging in at 17:00 and charging straight away. (Spot price only: grid tariff, tax and VAT come on top.)
 
-Live demo: coming soon · [Product brief](product/brief.md) · [Decision log](product/decision-log.md)
+[**Live demo**](https://gridwise-dk.streamlit.app) · [Product brief](product/brief.md) · [Decision log](product/decision-log.md)
 
 ---
 
