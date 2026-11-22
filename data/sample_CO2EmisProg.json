@@ -1,0 +1,1734 @@
+{
+ "note": "SYNTHETIC sample data for offline demos and tests. Shape only, not real market data.",
+ "dataset": "CO2EmisProg",
+ "records": [
+  {
+   "Minutes5UTC": "2026-11-13T23:00:00",
+   "Minutes5DK": "2026-11-14T00:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 85.3
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:05:00",
+   "Minutes5DK": "2026-11-14T00:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 84.5
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:10:00",
+   "Minutes5DK": "2026-11-14T00:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 83.6
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:15:00",
+   "Minutes5DK": "2026-11-14T00:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 82.7
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:20:00",
+   "Minutes5DK": "2026-11-14T00:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 81.7
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:25:00",
+   "Minutes5DK": "2026-11-14T00:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 80.6
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:30:00",
+   "Minutes5DK": "2026-11-14T00:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 79.4
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:35:00",
+   "Minutes5DK": "2026-11-14T00:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 78.2
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:40:00",
+   "Minutes5DK": "2026-11-14T00:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 76.9
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:45:00",
+   "Minutes5DK": "2026-11-14T00:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 75.5
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:50:00",
+   "Minutes5DK": "2026-11-14T00:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 74.0
+  },
+  {
+   "Minutes5UTC": "2026-11-13T23:55:00",
+   "Minutes5DK": "2026-11-14T00:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 72.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:00:00",
+   "Minutes5DK": "2026-11-14T01:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 70.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:05:00",
+   "Minutes5DK": "2026-11-14T01:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 69.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:10:00",
+   "Minutes5DK": "2026-11-14T01:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 67.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:15:00",
+   "Minutes5DK": "2026-11-14T01:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 66.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:20:00",
+   "Minutes5DK": "2026-11-14T01:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 64.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:25:00",
+   "Minutes5DK": "2026-11-14T01:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 62.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:30:00",
+   "Minutes5DK": "2026-11-14T01:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 61.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:35:00",
+   "Minutes5DK": "2026-11-14T01:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 59.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:40:00",
+   "Minutes5DK": "2026-11-14T01:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 58.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:45:00",
+   "Minutes5DK": "2026-11-14T01:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 56.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:50:00",
+   "Minutes5DK": "2026-11-14T01:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 55.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T00:55:00",
+   "Minutes5DK": "2026-11-14T01:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 54.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:00:00",
+   "Minutes5DK": "2026-11-14T02:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 53.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:05:00",
+   "Minutes5DK": "2026-11-14T02:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 52.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:10:00",
+   "Minutes5DK": "2026-11-14T02:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 52.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:15:00",
+   "Minutes5DK": "2026-11-14T02:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 51.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:20:00",
+   "Minutes5DK": "2026-11-14T02:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 51.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:25:00",
+   "Minutes5DK": "2026-11-14T02:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 51.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:30:00",
+   "Minutes5DK": "2026-11-14T02:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 52.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:35:00",
+   "Minutes5DK": "2026-11-14T02:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 52.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:40:00",
+   "Minutes5DK": "2026-11-14T02:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 53.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:45:00",
+   "Minutes5DK": "2026-11-14T02:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 54.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:50:00",
+   "Minutes5DK": "2026-11-14T02:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 56.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T01:55:00",
+   "Minutes5DK": "2026-11-14T02:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 57.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:00:00",
+   "Minutes5DK": "2026-11-14T03:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 59.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:05:00",
+   "Minutes5DK": "2026-11-14T03:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 61.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:10:00",
+   "Minutes5DK": "2026-11-14T03:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 63.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:15:00",
+   "Minutes5DK": "2026-11-14T03:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 65.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:20:00",
+   "Minutes5DK": "2026-11-14T03:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 68.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:25:00",
+   "Minutes5DK": "2026-11-14T03:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 70.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:30:00",
+   "Minutes5DK": "2026-11-14T03:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 73.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:35:00",
+   "Minutes5DK": "2026-11-14T03:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 75.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:40:00",
+   "Minutes5DK": "2026-11-14T03:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 78.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:45:00",
+   "Minutes5DK": "2026-11-14T03:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 80.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:50:00",
+   "Minutes5DK": "2026-11-14T03:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 83.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T02:55:00",
+   "Minutes5DK": "2026-11-14T03:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 85.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:00:00",
+   "Minutes5DK": "2026-11-14T04:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 88.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:05:00",
+   "Minutes5DK": "2026-11-14T04:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 90.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:10:00",
+   "Minutes5DK": "2026-11-14T04:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 93.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:15:00",
+   "Minutes5DK": "2026-11-14T04:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 95.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:20:00",
+   "Minutes5DK": "2026-11-14T04:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 97.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:25:00",
+   "Minutes5DK": "2026-11-14T04:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 98.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:30:00",
+   "Minutes5DK": "2026-11-14T04:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 100.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:35:00",
+   "Minutes5DK": "2026-11-14T04:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 102.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:40:00",
+   "Minutes5DK": "2026-11-14T04:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 103.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:45:00",
+   "Minutes5DK": "2026-11-14T04:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 104.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:50:00",
+   "Minutes5DK": "2026-11-14T04:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 105.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T03:55:00",
+   "Minutes5DK": "2026-11-14T04:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 106.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:00:00",
+   "Minutes5DK": "2026-11-14T05:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 106.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:05:00",
+   "Minutes5DK": "2026-11-14T05:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 107.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:10:00",
+   "Minutes5DK": "2026-11-14T05:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 107.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:15:00",
+   "Minutes5DK": "2026-11-14T05:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:20:00",
+   "Minutes5DK": "2026-11-14T05:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:25:00",
+   "Minutes5DK": "2026-11-14T05:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:30:00",
+   "Minutes5DK": "2026-11-14T05:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:35:00",
+   "Minutes5DK": "2026-11-14T05:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:40:00",
+   "Minutes5DK": "2026-11-14T05:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:45:00",
+   "Minutes5DK": "2026-11-14T05:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:50:00",
+   "Minutes5DK": "2026-11-14T05:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T04:55:00",
+   "Minutes5DK": "2026-11-14T05:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:00:00",
+   "Minutes5DK": "2026-11-14T06:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:05:00",
+   "Minutes5DK": "2026-11-14T06:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:10:00",
+   "Minutes5DK": "2026-11-14T06:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:15:00",
+   "Minutes5DK": "2026-11-14T06:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:20:00",
+   "Minutes5DK": "2026-11-14T06:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:25:00",
+   "Minutes5DK": "2026-11-14T06:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:30:00",
+   "Minutes5DK": "2026-11-14T06:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:35:00",
+   "Minutes5DK": "2026-11-14T06:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:40:00",
+   "Minutes5DK": "2026-11-14T06:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 117.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:45:00",
+   "Minutes5DK": "2026-11-14T06:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 118.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:50:00",
+   "Minutes5DK": "2026-11-14T06:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 120.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T05:55:00",
+   "Minutes5DK": "2026-11-14T06:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 122.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:00:00",
+   "Minutes5DK": "2026-11-14T07:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 123.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:05:00",
+   "Minutes5DK": "2026-11-14T07:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 125.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:10:00",
+   "Minutes5DK": "2026-11-14T07:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 127.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:15:00",
+   "Minutes5DK": "2026-11-14T07:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 129.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:20:00",
+   "Minutes5DK": "2026-11-14T07:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 130.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:25:00",
+   "Minutes5DK": "2026-11-14T07:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 132.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:30:00",
+   "Minutes5DK": "2026-11-14T07:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 134.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:35:00",
+   "Minutes5DK": "2026-11-14T07:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 135.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:40:00",
+   "Minutes5DK": "2026-11-14T07:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 136.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:45:00",
+   "Minutes5DK": "2026-11-14T07:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 137.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:50:00",
+   "Minutes5DK": "2026-11-14T07:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 138.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T06:55:00",
+   "Minutes5DK": "2026-11-14T07:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 139.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:00:00",
+   "Minutes5DK": "2026-11-14T08:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 140.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:05:00",
+   "Minutes5DK": "2026-11-14T08:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 140.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:10:00",
+   "Minutes5DK": "2026-11-14T08:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 140.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:15:00",
+   "Minutes5DK": "2026-11-14T08:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 140.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:20:00",
+   "Minutes5DK": "2026-11-14T08:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 140.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:25:00",
+   "Minutes5DK": "2026-11-14T08:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 139.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:30:00",
+   "Minutes5DK": "2026-11-14T08:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 138.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:35:00",
+   "Minutes5DK": "2026-11-14T08:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 137.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:40:00",
+   "Minutes5DK": "2026-11-14T08:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 136.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:45:00",
+   "Minutes5DK": "2026-11-14T08:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 135.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:50:00",
+   "Minutes5DK": "2026-11-14T08:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 133.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T07:55:00",
+   "Minutes5DK": "2026-11-14T08:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 132.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:00:00",
+   "Minutes5DK": "2026-11-14T09:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 130.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:05:00",
+   "Minutes5DK": "2026-11-14T09:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 128.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:10:00",
+   "Minutes5DK": "2026-11-14T09:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 126.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:15:00",
+   "Minutes5DK": "2026-11-14T09:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 124.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:20:00",
+   "Minutes5DK": "2026-11-14T09:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 122.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:25:00",
+   "Minutes5DK": "2026-11-14T09:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 121.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:30:00",
+   "Minutes5DK": "2026-11-14T09:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 119.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:35:00",
+   "Minutes5DK": "2026-11-14T09:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 117.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:40:00",
+   "Minutes5DK": "2026-11-14T09:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:45:00",
+   "Minutes5DK": "2026-11-14T09:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:50:00",
+   "Minutes5DK": "2026-11-14T09:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T08:55:00",
+   "Minutes5DK": "2026-11-14T09:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:00:00",
+   "Minutes5DK": "2026-11-14T10:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:05:00",
+   "Minutes5DK": "2026-11-14T10:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:10:00",
+   "Minutes5DK": "2026-11-14T10:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:15:00",
+   "Minutes5DK": "2026-11-14T10:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:20:00",
+   "Minutes5DK": "2026-11-14T10:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:25:00",
+   "Minutes5DK": "2026-11-14T10:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:30:00",
+   "Minutes5DK": "2026-11-14T10:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:35:00",
+   "Minutes5DK": "2026-11-14T10:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:40:00",
+   "Minutes5DK": "2026-11-14T10:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:45:00",
+   "Minutes5DK": "2026-11-14T10:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:50:00",
+   "Minutes5DK": "2026-11-14T10:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T09:55:00",
+   "Minutes5DK": "2026-11-14T10:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:00:00",
+   "Minutes5DK": "2026-11-14T11:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:05:00",
+   "Minutes5DK": "2026-11-14T11:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:10:00",
+   "Minutes5DK": "2026-11-14T11:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:15:00",
+   "Minutes5DK": "2026-11-14T11:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:20:00",
+   "Minutes5DK": "2026-11-14T11:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:25:00",
+   "Minutes5DK": "2026-11-14T11:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:30:00",
+   "Minutes5DK": "2026-11-14T11:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:35:00",
+   "Minutes5DK": "2026-11-14T11:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:40:00",
+   "Minutes5DK": "2026-11-14T11:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:45:00",
+   "Minutes5DK": "2026-11-14T11:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:50:00",
+   "Minutes5DK": "2026-11-14T11:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T10:55:00",
+   "Minutes5DK": "2026-11-14T11:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:00:00",
+   "Minutes5DK": "2026-11-14T12:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:05:00",
+   "Minutes5DK": "2026-11-14T12:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:10:00",
+   "Minutes5DK": "2026-11-14T12:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:15:00",
+   "Minutes5DK": "2026-11-14T12:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:20:00",
+   "Minutes5DK": "2026-11-14T12:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:25:00",
+   "Minutes5DK": "2026-11-14T12:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:30:00",
+   "Minutes5DK": "2026-11-14T12:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:35:00",
+   "Minutes5DK": "2026-11-14T12:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:40:00",
+   "Minutes5DK": "2026-11-14T12:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:45:00",
+   "Minutes5DK": "2026-11-14T12:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:50:00",
+   "Minutes5DK": "2026-11-14T12:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T11:55:00",
+   "Minutes5DK": "2026-11-14T12:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:00:00",
+   "Minutes5DK": "2026-11-14T13:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:05:00",
+   "Minutes5DK": "2026-11-14T13:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:10:00",
+   "Minutes5DK": "2026-11-14T13:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:15:00",
+   "Minutes5DK": "2026-11-14T13:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 107.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:20:00",
+   "Minutes5DK": "2026-11-14T13:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 107.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:25:00",
+   "Minutes5DK": "2026-11-14T13:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 106.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:30:00",
+   "Minutes5DK": "2026-11-14T13:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 106.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:35:00",
+   "Minutes5DK": "2026-11-14T13:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 105.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:40:00",
+   "Minutes5DK": "2026-11-14T13:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 105.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:45:00",
+   "Minutes5DK": "2026-11-14T13:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 105.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:50:00",
+   "Minutes5DK": "2026-11-14T13:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 105.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T12:55:00",
+   "Minutes5DK": "2026-11-14T13:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 106.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:00:00",
+   "Minutes5DK": "2026-11-14T14:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 106.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:05:00",
+   "Minutes5DK": "2026-11-14T14:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 107.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:10:00",
+   "Minutes5DK": "2026-11-14T14:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:15:00",
+   "Minutes5DK": "2026-11-14T14:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 108.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:20:00",
+   "Minutes5DK": "2026-11-14T14:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:25:00",
+   "Minutes5DK": "2026-11-14T14:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:30:00",
+   "Minutes5DK": "2026-11-14T14:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:35:00",
+   "Minutes5DK": "2026-11-14T14:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:40:00",
+   "Minutes5DK": "2026-11-14T14:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:45:00",
+   "Minutes5DK": "2026-11-14T14:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:50:00",
+   "Minutes5DK": "2026-11-14T14:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 118.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T13:55:00",
+   "Minutes5DK": "2026-11-14T14:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 120.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:00:00",
+   "Minutes5DK": "2026-11-14T15:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 122.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:05:00",
+   "Minutes5DK": "2026-11-14T15:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 123.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:10:00",
+   "Minutes5DK": "2026-11-14T15:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 125.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:15:00",
+   "Minutes5DK": "2026-11-14T15:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 127.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:20:00",
+   "Minutes5DK": "2026-11-14T15:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 129.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:25:00",
+   "Minutes5DK": "2026-11-14T15:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 131.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:30:00",
+   "Minutes5DK": "2026-11-14T15:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 132.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:35:00",
+   "Minutes5DK": "2026-11-14T15:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 134.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:40:00",
+   "Minutes5DK": "2026-11-14T15:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 136.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:45:00",
+   "Minutes5DK": "2026-11-14T15:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 137.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:50:00",
+   "Minutes5DK": "2026-11-14T15:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 139.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T14:55:00",
+   "Minutes5DK": "2026-11-14T15:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 140.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:00:00",
+   "Minutes5DK": "2026-11-14T16:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 142.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:05:00",
+   "Minutes5DK": "2026-11-14T16:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 143.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:10:00",
+   "Minutes5DK": "2026-11-14T16:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 144.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:15:00",
+   "Minutes5DK": "2026-11-14T16:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 146.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:20:00",
+   "Minutes5DK": "2026-11-14T16:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 147.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:25:00",
+   "Minutes5DK": "2026-11-14T16:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 148.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:30:00",
+   "Minutes5DK": "2026-11-14T16:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 149.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:35:00",
+   "Minutes5DK": "2026-11-14T16:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 150.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:40:00",
+   "Minutes5DK": "2026-11-14T16:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 151.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:45:00",
+   "Minutes5DK": "2026-11-14T16:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 152.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:50:00",
+   "Minutes5DK": "2026-11-14T16:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 153.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T15:55:00",
+   "Minutes5DK": "2026-11-14T16:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 154.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:00:00",
+   "Minutes5DK": "2026-11-14T17:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 155.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:05:00",
+   "Minutes5DK": "2026-11-14T17:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 156.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:10:00",
+   "Minutes5DK": "2026-11-14T17:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 157.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:15:00",
+   "Minutes5DK": "2026-11-14T17:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 158.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:20:00",
+   "Minutes5DK": "2026-11-14T17:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 159.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:25:00",
+   "Minutes5DK": "2026-11-14T17:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 160.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:30:00",
+   "Minutes5DK": "2026-11-14T17:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 161.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:35:00",
+   "Minutes5DK": "2026-11-14T17:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 162.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:40:00",
+   "Minutes5DK": "2026-11-14T17:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 162.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:45:00",
+   "Minutes5DK": "2026-11-14T17:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 163.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:50:00",
+   "Minutes5DK": "2026-11-14T17:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 164.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T16:55:00",
+   "Minutes5DK": "2026-11-14T17:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 165.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:00:00",
+   "Minutes5DK": "2026-11-14T18:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 165.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:05:00",
+   "Minutes5DK": "2026-11-14T18:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 166.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:10:00",
+   "Minutes5DK": "2026-11-14T18:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 166.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:15:00",
+   "Minutes5DK": "2026-11-14T18:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 167.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:20:00",
+   "Minutes5DK": "2026-11-14T18:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 167.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:25:00",
+   "Minutes5DK": "2026-11-14T18:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 167.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:30:00",
+   "Minutes5DK": "2026-11-14T18:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 167.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:35:00",
+   "Minutes5DK": "2026-11-14T18:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 167.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:40:00",
+   "Minutes5DK": "2026-11-14T18:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 166.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:45:00",
+   "Minutes5DK": "2026-11-14T18:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 166.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:50:00",
+   "Minutes5DK": "2026-11-14T18:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 165.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T17:55:00",
+   "Minutes5DK": "2026-11-14T18:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 164.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:00:00",
+   "Minutes5DK": "2026-11-14T19:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 163.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:05:00",
+   "Minutes5DK": "2026-11-14T19:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 162.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:10:00",
+   "Minutes5DK": "2026-11-14T19:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 161.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:15:00",
+   "Minutes5DK": "2026-11-14T19:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 159.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:20:00",
+   "Minutes5DK": "2026-11-14T19:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 158.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:25:00",
+   "Minutes5DK": "2026-11-14T19:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 156.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:30:00",
+   "Minutes5DK": "2026-11-14T19:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 154.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:35:00",
+   "Minutes5DK": "2026-11-14T19:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 152.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:40:00",
+   "Minutes5DK": "2026-11-14T19:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 149.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:45:00",
+   "Minutes5DK": "2026-11-14T19:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 147.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:50:00",
+   "Minutes5DK": "2026-11-14T19:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 145.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T18:55:00",
+   "Minutes5DK": "2026-11-14T19:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 142.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:00:00",
+   "Minutes5DK": "2026-11-14T20:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 140.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:05:00",
+   "Minutes5DK": "2026-11-14T20:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 137.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:10:00",
+   "Minutes5DK": "2026-11-14T20:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 135.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:15:00",
+   "Minutes5DK": "2026-11-14T20:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 132.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:20:00",
+   "Minutes5DK": "2026-11-14T20:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 130.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:25:00",
+   "Minutes5DK": "2026-11-14T20:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 127.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:30:00",
+   "Minutes5DK": "2026-11-14T20:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 125.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:35:00",
+   "Minutes5DK": "2026-11-14T20:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 123.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:40:00",
+   "Minutes5DK": "2026-11-14T20:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 121.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:45:00",
+   "Minutes5DK": "2026-11-14T20:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 119.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:50:00",
+   "Minutes5DK": "2026-11-14T20:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 117.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T19:55:00",
+   "Minutes5DK": "2026-11-14T20:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:00:00",
+   "Minutes5DK": "2026-11-14T21:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:05:00",
+   "Minutes5DK": "2026-11-14T21:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:10:00",
+   "Minutes5DK": "2026-11-14T21:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.1
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:15:00",
+   "Minutes5DK": "2026-11-14T21:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:20:00",
+   "Minutes5DK": "2026-11-14T21:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:25:00",
+   "Minutes5DK": "2026-11-14T21:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:30:00",
+   "Minutes5DK": "2026-11-14T21:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:35:00",
+   "Minutes5DK": "2026-11-14T21:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:40:00",
+   "Minutes5DK": "2026-11-14T21:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:45:00",
+   "Minutes5DK": "2026-11-14T21:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:50:00",
+   "Minutes5DK": "2026-11-14T21:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 109.9
+  },
+  {
+   "Minutes5UTC": "2026-11-14T20:55:00",
+   "Minutes5DK": "2026-11-14T21:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:00:00",
+   "Minutes5DK": "2026-11-14T22:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 110.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:05:00",
+   "Minutes5DK": "2026-11-14T22:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:10:00",
+   "Minutes5DK": "2026-11-14T22:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:15:00",
+   "Minutes5DK": "2026-11-14T22:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.4
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:20:00",
+   "Minutes5DK": "2026-11-14T22:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:25:00",
+   "Minutes5DK": "2026-11-14T22:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:30:00",
+   "Minutes5DK": "2026-11-14T22:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:35:00",
+   "Minutes5DK": "2026-11-14T22:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:40:00",
+   "Minutes5DK": "2026-11-14T22:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:45:00",
+   "Minutes5DK": "2026-11-14T22:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.6
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:50:00",
+   "Minutes5DK": "2026-11-14T22:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T21:55:00",
+   "Minutes5DK": "2026-11-14T22:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:00:00",
+   "Minutes5DK": "2026-11-14T23:00:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:05:00",
+   "Minutes5DK": "2026-11-14T23:05:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:10:00",
+   "Minutes5DK": "2026-11-14T23:10:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:15:00",
+   "Minutes5DK": "2026-11-14T23:15:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 116.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:20:00",
+   "Minutes5DK": "2026-11-14T23:20:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.7
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:25:00",
+   "Minutes5DK": "2026-11-14T23:25:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 115.3
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:30:00",
+   "Minutes5DK": "2026-11-14T23:30:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:35:00",
+   "Minutes5DK": "2026-11-14T23:35:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 114.2
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:40:00",
+   "Minutes5DK": "2026-11-14T23:40:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 113.5
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:45:00",
+   "Minutes5DK": "2026-11-14T23:45:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.8
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:50:00",
+   "Minutes5DK": "2026-11-14T23:50:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 112.0
+  },
+  {
+   "Minutes5UTC": "2026-11-14T22:55:00",
+   "Minutes5DK": "2026-11-14T23:55:00",
+   "PriceArea": "DK2",
+   "CO2Emission": 111.1
+  }
+ ]
+}
