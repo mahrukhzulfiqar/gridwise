@@ -2,39 +2,93 @@
 
 **Ask when to charge your EV in Denmark and get the cheapest, greenest time, based on live data from Energinet.**
 
+👉 [**Try the live demo**](https://gridwise-dk.streamlit.app) (no sign-up)
+
 <!-- Demo GIF goes here once recorded: ![GridWise demo](docs/demo.gif) -->
 
 > "Cheapest and greenest time to charge 40 kWh tonight in DK2? I leave at 07:30."
 >
-> **Charge 00:30 to 04:15.** Average spot price 0.36 kr/kWh and 66 g CO2/kWh. That is about 31 kr cheaper and 3.5 kg less CO2 than plugging in at 17:00 and charging straight away. (Spot price only: grid tariff, tax and VAT come on top.)
+> **Charge 00:30 to 04:15.** Average spot price 0.36 kr/kWh and 66 g CO2/kWh. About 31 kr cheaper and 3.5 kg less CO2 than plugging in at 17:00 and charging straight away. (Spot price only: grid tariff, tax and VAT come on top.)
+>
+> <sub>Example answer from the bundled sample day.</sub>
 
-[**Live demo**](https://gridwise-dk.streamlit.app) · [Product brief](product/brief.md) · [Decision log](product/decision-log.md)
+## Product case study at a glance
+
+| | |
+|---|---|
+| **Problem** | EV owners charge at the evening peak because price and CO2 data is hard to use |
+| **User** | Danish household with an EV and a home charger |
+| **My role** | Defined the problem, scope, success metrics and roadmap; made and logged the product decisions; built and shipped it |
+| **Key decision** | The AI explains, tested code calculates: every number is reproducible |
+| **After launch** | Adapted within a day when the data provider introduced rate limits; fixed an answer that was correct but misleading |
+| **Next** | All-in price with grid tariffs, and interviews with 5 EV owners |
+
+📄 **Product docs:** [One-page brief](product/brief.md) · [Success metrics](product/metrics.md) · [Roadmap](product/roadmap.md) · [Decision log](product/decision-log.md)
+
+The product story comes first below. Architecture, setup and tests are in [For engineers](#for-engineers).
 
 ---
 
-## The problem
+# Product
 
-Danish electricity prices now change every 15 minutes, and the CO2 intensity of the grid swings by a factor of three or more within a day as wind and imports change. Most EV owners plug in when they get home, which is right at the evening peak. The data to do better is public, but it sits in an API that few people will ever query.
+## 1. Problem and user
+
+Danish electricity prices now change every 15 minutes, and the CO2 intensity of the grid swings by a factor of three or more within a day as wind and imports change. Most EV owners plug in when they get home, right at the evening peak. The data to do better is public, but it sits in an API that few people will ever query.
 
 **Target user:** a household in Denmark with an EV and a home charger, who wants to save money and cut emissions without studying the electricity market.
 
 **Job to be done:** *"When I plug in my car this evening, tell me when to charge so it is ready in the morning, at the lowest cost and CO2."*
 
-## What it does
+**Deliberately out of scope for v0.1:** controlling the charger, other appliances, user accounts. One job, done well. ([brief](product/brief.md))
 
-- **Chat (English or Danish):** ask in plain language. A Claude agent picks the right tool, gets real data and answers with a time window, cost and CO2 compared with charging straight away.
-- **Planner (no AI needed):** set kWh, charger power, plug-in and ready-by times, and optimise for cheapest, greenest or balanced.
-- **MCP server:** the same tools work in Claude Desktop or any other MCP client.
+## 2. Key product decisions
 
-Tools exposed over MCP:
+| Decision | Why | Trade-off |
+|---|---|---|
+| **The model talks, the code calculates** ([D2](product/decision-log.md#d2-the-model-talks-the-code-calculates)) | Users act on money and CO2 numbers, so they must be reproducible and testable. The AI picks the tool and explains; a tested planner does the maths, and every tool call is shown. | Less flexible for unusual questions |
+| **Ship spot price only, and say so in every answer** ([D5](product/decision-log.md#d5-ship-with-spot-price-only-and-say-so-every-time)) | A trusted, working loop first. The limitation is visible, never hidden. | Savings shown differ from the real bill near the 17:00 to 21:00 tariff peak |
+| **One continuous charging window** ([D6](product/decision-log.md#d6-recommend-one-continuous-window)) | Matches how people and chargers schedule charging; easy to act on | Leaves a small saving on the table some nights |
+| **State defaults instead of asking** ([D8](product/decision-log.md#d8-state-defaults-instead-of-asking)) | One useful answer beats a round of clarifying questions | Assumption may be wrong; the answer says what was assumed |
+| **Works without AI** ([D7](product/decision-log.md#d7-a-planner-that-works-without-the-llm)) | Anyone can try it free; fallback if the model API is down; proves the value is in the planner | Chat is optional, not the hero |
 
-| Tool | What it returns |
+## 3. What changed after launch
+
+The first live run surfaced two problems that no test caught:
+
+- **The data provider changed its rules.** Energinet had introduced per-dataset rate limits, and the app was blocked within seconds. I redesigned data access: one call per dataset instead of one per day, a 15-minute cache, and honouring the provider's wait time. ([D10](product/decision-log.md#d10-design-for-the-data-providers-rate-limits))
+- **A correct answer can still mislead.** Before tomorrow's prices are published (around 13:00), the planner recommended the best slot *this evening*, which is the peak. It now says clearly what it can and cannot see yet.
+
+## 4. How I measure success
+
+**North star:** saving per charging session versus plugging in and charging immediately, in DKK and kg CO2. It measures value to the user, not engagement.
+**Trust guardrail:** 100% of numbers in answers come from a tool call. More in [metrics.md](product/metrics.md).
+
+## 5. What's next
+
+- **Next:** all-in price (grid tariff per grid company, tax, VAT); an eval set of 25 labelled questions; user interviews with EV owners
+- **Later:** schedule the charger directly; notify when tomorrow's prices are out; other flexible loads (heat pump, dishwasher)
+
+Full [roadmap](product/roadmap.md). Assumptions still to validate are listed in the [brief](product/brief.md#key-assumptions-to-test).
+
+## 6. Try it
+
+- **[Live demo](https://gridwise-dk.streamlit.app)**: the *Charging planner* tab works for anyone, no sign-up.
+- **Chat (English or Danish):** ask in plain language; a Claude agent answers with a time window, cost and CO2. Runs locally with your own API key.
+- **MCP server:** the same tools work in Claude Desktop or any MCP client.
+
+---
+
+# Engineering
+
+## For engineers
+
+| Tool (MCP) | What it returns |
 |---|---|
 | `get_prices` | Day-ahead spot prices for DK1/DK2, hourly summary, cheapest and most expensive quarter |
 | `get_co2_forecast` | Forecast CO2 intensity (g/kWh), hourly summary, greenest quarter |
 | `plan_ev_charging` | Best continuous charging window, plus cheapest, greenest and "charge now" for comparison |
 
-## How it works
+### Architecture
 
 ```mermaid
 flowchart LR
@@ -56,7 +110,7 @@ How the planner picks a window:
 3. Score each window: `w × normalised price + (1 − w) × normalised CO2`, with `w` = 1 (cheapest), 0 (greenest) or 0.5 (balanced).
 4. Compare the winner with the baseline of charging immediately at plug-in.
 
-## Quick start
+### Run it locally
 
 ```bash
 git clone https://github.com/mahrukhzulfiqar/gridwise.git
@@ -76,7 +130,7 @@ Ask from the command line:
 python -m gridwise.agent "Hvornår er strømmen billigst i morgen i DK1?"
 ```
 
-### Use it in Claude Desktop
+#### Use it in Claude Desktop
 
 After `pip install -e .`, add this to `claude_desktop_config.json` and restart Claude Desktop:
 
@@ -92,13 +146,13 @@ After `pip install -e .`, add this to `claude_desktop_config.json` and restart C
 
 Then ask Claude: *"Using GridWise, when should I run my dishwasher tonight in Copenhagen?"*
 
-### Deploy the demo (free)
+#### Deploy the demo (free)
 
 1. Push to GitHub.
 2. On [Streamlit Community Cloud](https://share.streamlit.io), create an app from `app.py`.
 3. Under *Settings → Secrets*, add `ANTHROPIC_API_KEY = "sk-ant-..."`. Optionally set `GRIDWISE_MODEL`.
 
-## Data
+### Data
 
 | Dataset | Used for | Resolution |
 |---|---|---|
@@ -107,31 +161,22 @@ Then ask Claude: *"Using GridWise, when should I run my dishwasher tonight in Co
 
 Source: Energinet, [Energi Data Service](https://www.energidataservice.dk). Free, no API key. Data is not endorsed by Energinet. Price areas: **DK1** West Denmark (Jutland, Funen), **DK2** East Denmark (Zealand, Copenhagen).
 
-## Known limitations
+### Known limitations
 
 - **Spot price is not your bill.** Grid tariff (highest 17:00 to 21:00), electricity tax and VAT come on top. Adding tariffs per grid company is first on the [roadmap](product/roadmap.md).
 - **Tomorrow's prices** are usually published early afternoon. Before that, GridWise says so instead of guessing.
 - One continuous charging session. Split sessions and smart-charger control are out of scope for v0.1.
 
-## Tests
+### Tests
 
 ```bash
-pytest          # 19 tests: planner, API client (mocked), MCP server end to end, agent loop (stubbed Claude)
+pytest          # 22 tests: planner, API client (mocked), MCP server end to end, agent loop (stubbed Claude)
 ruff check .
 ```
 
 CI runs both on every push.
 
-## Product docs
-
-| Doc | |
-|---|---|
-| [One-page brief](product/brief.md) | Problem, user, scope, risks |
-| [Success metrics](product/metrics.md) | What good looks like and how it is measured |
-| [Roadmap](product/roadmap.md) | Now, next, later |
-| [Decision log](product/decision-log.md) | Key product and technical decisions, with reasoning |
-
-## Repo layout
+### Repo layout
 
 ```
 gridwise/
@@ -145,6 +190,6 @@ tests/            pytest suite
 data/             Synthetic sample day for offline mode
 ```
 
-## License
+## About
 
-MIT. Built by Mahrukh Zulfiqar.
+MIT license. Built by Mahrukh Zulfiqar, Product Manager (data and AI), Copenhagen.
