@@ -55,3 +55,9 @@ Short records of decisions that shaped GridWise: the context, what I chose, and 
 **Decision:** Min-max normalise both across candidate windows, then weight 50/50 for balanced.
 **Why:** Simple, explainable and stable. The user can choose cheapest or greenest to override.
 **Trade-off:** Relative, not absolute: a day with tiny CO2 variation still gives CO2 half the weight.
+
+### D10. Design for the data provider's rate limits
+**Context:** On the first live run, Energi Data Service answered HTTP 429 (too many requests). In 2026 Energinet introduced per-dataset rate limits on the API, and the planner was making one call per dataset per day: four calls for "today and tomorrow".
+**Decision:** Fetch today and tomorrow in one call per dataset, cache results for 15 minutes, wait and retry when the API asks for a short pause, and otherwise tell the user how long to wait. Identify the app with its own User-Agent.
+**Why:** Prices change once a day, so repeated calls add nothing. Respecting the provider's limits keeps the product working for every user and keeps us a good citizen of a free public service.
+**Trade-off:** A CO2 forecast update can take up to 15 minutes to appear.
