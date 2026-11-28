@@ -5,6 +5,8 @@
 ## Problem
 Since October 2025, Danish day-ahead electricity prices change every 15 minutes, and the CO2 intensity of the grid varies a lot through the day. An EV is the largest flexible load in most homes, yet most people plug in and charge at around 17:00, at the evening peak for both price and CO2. The data needed to do better is free and public (Energinet's Energi Data Service), but it is raw market data that households will not query themselves.
 
+![Charge now vs the GridWise window on real data](../docs/img/gridwise-day.svg)
+
 ## Target user
 **Primary:** a household in Denmark with an EV and a home charger (7 to 22 kW), who cares about cost and climate but will not study the electricity market.
 **Secondary:** developers and energy companies who want Danish price and CO2 data as tools for their own AI agents (via MCP).

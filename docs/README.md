@@ -1,9 +1,9 @@
 # docs
 
-Put `demo.gif` here (referenced at the top of the main README).
+Images used in the main README and the product docs.
 
-How to record (about 20 seconds):
-1. `streamlit run app.py` with your API key set.
-2. Click the example question "Cheapest and greenest time to charge 40 kWh tonight...".
-3. Open "How I got this" to show the tool call, then switch to the Charging planner tab.
-4. Record with ScreenToGif (Windows), Kap (macOS) or Peek (Linux). Keep it under 5 MB.
+| File | What it shows | How it was made |
+|---|---|---|
+| `img/gridwise-demo.gif` | The live charging planner: changing the ready-by time moves the window | Screenshots of the deployed app on 28 Nov 2026 |
+| `img/gridwise-day.svg` | Charge now vs the GridWise window over 24 hours | Real Energi Data Service data for DK2, 26 to 27 Nov 2026, run through `gridwise.planner` |
+| `img/grid-tariff.svg` | Radius winter grid tariff by hour | Published tariff values (see product/desk-research.md) |

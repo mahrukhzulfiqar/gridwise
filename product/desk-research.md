@@ -26,6 +26,8 @@ Green Power Denmark reported that 69% of electricity agreements in Denmark in 20
 
 ### 3. The grid tariff is often the bigger lever
 Radius's winter transport tariff (incl. VAT, from 1 Oct 2025) was 12.20 øre/kWh at night (00 to 06) and 109.85 øre/kWh in the peak (17 to 21), a difference of almost 1 kr/kWh, every day, regardless of wind and weather.
+
+![Radius winter grid tariff by hour](../docs/img/grid-tariff.svg)
 **Implication:** confirms **all-in price** as the top roadmap item. A spot-only recommendation can be right on spot price and still wrong on the bill.
 
 ### 4. Competitors already automate

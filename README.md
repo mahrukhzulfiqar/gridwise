@@ -4,13 +4,15 @@
 
 👉 [**Try the live demo**](https://gridwise-dk.streamlit.app) (no sign-up)
 
-<!-- Demo GIF goes here once recorded: ![GridWise demo](docs/demo.gif) -->
+<p align="center"><img src="docs/img/gridwise-demo.gif" alt="GridWise charging planner: changing the ready-by time moves the recommended charging window, with price, CO2 and saving versus charging now" width="560"></p>
 
 > "Cheapest and greenest time to charge 40 kWh tonight in DK2? I leave at 07:30."
 >
-> **Charge 00:30 to 04:15.** Average spot price 0.36 kr/kWh and 66 g CO2/kWh. About 31 kr cheaper and 3.5 kg less CO2 than plugging in at 17:00 and charging straight away. (Spot price only: grid tariff, tax and VAT come on top.)
+> **Charge 02:00 to 05:45.** Average spot price 1.73 kr/kWh and 32 g CO2/kWh. About 40 kr cheaper and 2.6 kg less CO2 than plugging in at 17:00 and charging straight away. (Spot price only: grid tariff, tax and VAT come on top.)
 >
-> <sub>Example answer from the bundled sample day.</sub>
+> <sub>The planner's answer on real Energinet data for DK2, 26 to 27 November 2026.</sub>
+
+<p align="center"><img src="docs/img/gridwise-day.svg" alt="Spot price and CO2 over 24 hours: charging at 17:00 hits the evening peak, the GridWise window from 02:00 to 05:45 sits in the night-time low for both" width="880"></p>
 
 ## Product case study at a glance
 
@@ -41,6 +43,10 @@ Danish electricity prices now change every 15 minutes, the CO2 intensity of the 
 **Target user:** a household in Denmark with an EV and a **basic home charger without a smart charging app**, who wants to save money and cut emissions without studying the electricity market. Second segment: **developers and energy teams** who want price and CO2 planning as tools for their own AI agents (MCP).
 
 **Job to be done:** *"When I plug in my car this evening, tell me when to charge so it is ready in the morning, at the lowest cost and CO2."*
+
+**Where the money really is:** the spot price is only part of the bill. The grid tariff alone is nine times higher in the evening peak than at night, which is why all-in pricing is first on the roadmap.
+
+<p align="center"><img src="docs/img/grid-tariff.svg" alt="Radius winter grid tariff: 12 øre per kWh at night, about 37 in the day, 110 between 17:00 and 21:00" width="880"></p>
 
 **Deliberately out of scope for v0.1:** controlling the charger, other appliances, user accounts. One job, done well. ([brief](product/brief.md))
 
@@ -103,6 +109,25 @@ flowchart LR
     S --> E[Energi Data Service API]
     E -->|DayAheadPrices, 15 min| S
     E -->|CO2EmisProg, 5 min| S
+```
+
+How one chat answer is made: the model chooses the tool and explains, the planner does the maths.
+
+```mermaid
+sequenceDiagram
+    actor U as User
+    participant A as Claude agent
+    participant S as MCP server
+    participant P as Planner
+    participant E as Energi Data Service
+    U->>A: When should I charge 40 kWh tonight?
+    A->>S: plan_ev_charging(kwh=40, ready_by="07:30")
+    S->>E: DayAheadPrices + CO2EmisProg (cached 15 min)
+    E-->>S: 15-min prices, 5-min CO2
+    S->>P: slots, kWh, charger, window
+    P-->>S: best window, cheapest, greenest, charge now
+    S-->>A: JSON result
+    A-->>U: Charge 02:00 to 05:45, saves 40 kr and 2.6 kg CO2
 ```
 
 **Design principle: the model talks, the code calculates.** Claude decides which tool to call and explains the result. Every number comes from the planner, which is plain Python with unit tests. See the [decision log](product/decision-log.md) for why.
